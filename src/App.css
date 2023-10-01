@@ -1,0 +1,115 @@
+html,body,p{
+  margin: 0px;
+  padding: 0px;
+ }
+h5 > a{
+  text-decoration: none;
+  color: rgb(9, 25, 30);
+}
+/* Crud app CSS */
+.app-container{
+  margin: 0 auto;
+  padding: 0px;
+  /* max-width: 1280px; */
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+}
+.zen-header {
+ 
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  background-color:rgb(116, 90, 228);
+}
+.zen-header-nav{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+.zen-header-nav-menu{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.zen-header-nav-menu > a{
+  text-decoration: none;
+  color: rgb(50, 176, 255);
+}
+.sidebar {
+  width: 20%;
+  height: 100vh;
+  background-color: rgb(116, 90, 228);
+ 
+}
+.content-area {
+  width: 80%;
+  height: calc(100vh-80px);
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+/* a {
+  text-decoration: none;
+  color: rgb(9, 25, 30);
+} */
+
+#zen-sidebar-nav > ul {
+  margin: 0px;
+  padding: 0;
+  list-style-type: none;
+  background-color: rgb(255, 255, 255);
+}
+
+
+.zen-sidebar-nav > ul > li {
+  width: 100%;
+  height: 50px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.zen-sidebar-nav > ul > li:hover{
+  background-color: rgb(192, 184, 231);
+  font-size: x-large;
+}
+.zen-sidebar-nav > ul > li > a{
+  text-decoration: none;
+  color: rgb(9, 25, 30);
+}
+.content-area > img {
+  width: 400px;
+  height: 300px;
+
+
+}
+.login-container{
+  box-sizing: border-box;
+}
+
+.student-table{
+  display: flex;
+
+  
+}
+.teacher-table-button,.student-table-button{
+  display: flex;
+ justify-content: center;
+
+}
